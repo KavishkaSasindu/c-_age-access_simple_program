@@ -2,7 +2,7 @@
 
 namespace MyApp
 {
-     class Program
+    class Program
     {
         public static void Main(string[] args)
         {
@@ -36,19 +36,28 @@ namespace MyApp
             //         break;
             // }
 
-                Console.WriteLine("Enter how many times do you need to say 'i love you'");
+            Console.Write("Hello There enter your name :");
+            string name = Console.ReadLine();
 
-                int howTime = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine();
 
-                for(int i =1;i<=howTime;i++)
+            Console.Write("Enter How many times do you need to say 'i love you ?");
+            int looper = Convert.ToInt32(Console.ReadLine());
+
+
+            if (looper == 0)
+            {
+                Console.WriteLine("Hell no didn't you love your partner?");
+            }
+            else
+            {
+                for (int i = 1; i <= looper; i++)
                 {
-                    Console.WriteLine("I Love You "+i);
+                    Console.WriteLine("I love you {0}", name);
                 }
+            }
 
-                int age = 23;
-                string name = "Kavishka Sasindu";
 
-                Console.WriteLine("Your name is {0} and your age is {1}",name,age);
 
 
         }
