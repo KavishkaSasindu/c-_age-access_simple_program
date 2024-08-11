@@ -12,3 +12,4 @@
 /home/ks-dev/Documents/c#/MyApp/obj/Debug/net8.0/MyApp.pdb
 /home/ks-dev/Documents/c#/MyApp/obj/Debug/net8.0/MyApp.genruntimeconfig.cache
 /home/ks-dev/Documents/c#/MyApp/obj/Debug/net8.0/ref/MyApp.dll
+/home/ks-dev/Documents/c#/MyApp/obj/Debug/net8.0/MyApp.sourcelink.json
