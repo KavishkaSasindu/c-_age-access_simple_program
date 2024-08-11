@@ -44,6 +44,13 @@ namespace MyApp
                 {
                     Console.WriteLine("I Love You "+i);
                 }
+
+                int age = 23;
+                string name = "Kavishka Sasindu";
+
+                Console.WriteLine("Your name is {0} and your age is {1}",name,age);
+
+
         }
     }
 }
