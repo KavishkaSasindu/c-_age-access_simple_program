@@ -54,6 +54,7 @@ namespace MyApp
                 for (int i = 1; i <= looper; i++)
                 {
                     Console.WriteLine("I love you {0}", name);
+                    // Console.WriteLine($"I love you {name}");
                 }
             }
 
